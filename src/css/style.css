@@ -1,13 +1,14 @@
 body {
     font-family: Helvetica, sans-serif;
     background-color: rgb(238, 238, 238);
-};
+}
 
 .container {
     background-color: white;
     margin: 20px;
+    padding: 20px;
     border: 1px solid #ddd;
-    border-radius: 4px;
+    border-radius: 8px;
     overflow: hidden;
 }
 
@@ -24,11 +25,12 @@ body {
     border-radius: 5px;
     font-size: 15px;
     transition: background-color 0.3s ease;
-};
+}
 
 .collapse:hover {
     background-color: #2980b9;
 }
+
 .collapse-icon {
     width: 20px;
     height: 20px;
@@ -50,5 +52,7 @@ body {
 }
 
 .content-text {
-    margin: 18px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
 }
